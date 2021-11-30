@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 class Tests(TestCase):
-    def test_EK(self):
+    def test(self):
         search_request = 'playstation'
         url = "https://rozetka.com.ua/ua/"
 
